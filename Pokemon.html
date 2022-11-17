@@ -8,7 +8,8 @@
     </head>
     <body>
         <section id="PetSelect">
-            <h1> Pokemon!🔥💧🌱</h1>
+            <h1 class="font-effect-neon"> Pokémon!🔥💧🌱</h1>
+            <div class="cont">
             <h2>Choose your Pet: </h2>
 
             <input type="radio" name="pet" id="Magikarp" checked/>
@@ -29,18 +30,19 @@
             <input type="radio" name="pet" id="Bulbasaur"/> 
             <label for="Bulbasaur">Bulbasaur</label><br><br>
 
-            <button id="PetSelectButton">Start Combat</button> <br> <br>
+            <button id="PetSelectButton" class="buttons">Start Combat</button> <br> <br>
+            </div>
         </section>
 
         <section id="AttackSelect">
-            <h1 class="tittle"> Pokemon!🔥💧🌱</h1>
+            <h1 class="font-effect-neon"> Pokemon!🔥💧🌱</h1>
             <h2>Select your attack:</h2>
             <p>Your Pet <span id="PetPlayer">Magikarp</span> has <span id="PlayerLive">3</span> lives</p>
             <p>The Pet <span id="EnemyPet"></span> of the enemy has <span id="EnemyLive">3</span> lives</p>
             <p>
-                <button id="FireButton" disabled> Fire🔥 </button>
-                <button id="WaterButton" disabled> Water💧 </button>
-                <button id="PlantButton" disabled> Plant🌱 </button>
+                <button id="FireButton" class="buttons" disabled> Fire🔥 </button>
+                <button id="WaterButton" class="buttons" disabled> Water💧 </button>
+                <button id="PlantButton" class="buttons" disabled> Plant🌱 </button>
             </p>
         </section>
         
@@ -49,7 +51,7 @@
         </section>
 
         <section id="Restart">
-            <button id="RestartButton"> Restart </button>
+            <button id="RestartButton" class="buttons"> Restart </button>
         </section>
     </body>
 </html>
